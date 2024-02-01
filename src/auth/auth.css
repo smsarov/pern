@@ -1,0 +1,70 @@
+.auth {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 16px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 3px 3px 10px #E7E7E7 ;
+    margin: auto;
+    margin-top: 20vh;
+
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputs{
+    margin-top: -10%;
+}
+
+input{
+    display: -ms-flexbox;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+
+    margin-top: 16px;
+
+    outline: none;
+
+    width: 80%;
+    height: 25px;
+
+    background: #F5F5F5;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+
+}
+
+.confirm{
+    display: flex;
+    width: 10em;
+    height: 2em;
+    min-height: 40px;
+    user-select: none;
+    background: #242027;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+
+    cursor: pointer;
+}
+
+h1{
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal ;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 19px;
+}
+
